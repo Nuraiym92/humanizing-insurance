@@ -1,0 +1,27 @@
+@import "../../global.scss ";
+.header {
+  height: 70px;
+  &__inner {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 30px;
+    &-link {
+      text-decoration: none;
+      font-size: 20px;
+      color: $greyish;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: "Karla", sans-serif;
+    }
+  }
+  &__menu li {
+    list-style: none;
+  }
+}

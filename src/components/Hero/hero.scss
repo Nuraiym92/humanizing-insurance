@@ -1,0 +1,65 @@
+@import "../../global.scss";
+
+.hero {
+  position: relative;
+  &__inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  height: 700px;
+  background-color: $darkColor;
+  &__txt {
+    padding-top: 100px;
+  }
+  &__txt:before {
+    content: "";
+    display: block;
+    width: 200px;
+
+    border: 1px solid $mainColor;
+    position: absolute;
+  }
+  &__title {
+    color: $mainColor;
+    font-size: 90px;
+    width: 650px;
+  }
+  &__descr {
+    color: $mainColor;
+    font-size: 20px;
+    width: 680px;
+    line-height: 30px;
+    font-family: "Karla", sans-serif;
+    margin-top: -40px;
+    letter-spacing: 2px;
+  }
+  &__btn {
+    padding: 15px 60px;
+    background-color: $darkColor;
+    border: 1px solid $mainColor;
+    &-link {
+      color: $mainColor;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  }
+  &__bg {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+  }
+  &__bgright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
+  &__bgleft {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    z-index: 10;
+  }
+}
