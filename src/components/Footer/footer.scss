@@ -1,0 +1,54 @@
+@import "../../global.scss";
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: $greyColor;
+  height: 450px;
+  &__inner {
+    position: relative;
+    z-index: 5;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-links-list {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      list-style: none;
+    }
+  }
+  &__bg {
+    position: absolute;
+    z-index: 3;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    &-item-title {
+      color: $greyish;
+      font-size: 20px;
+    }
+    &-item-list {
+      padding-left: 4px;
+    }
+    &-item-list li {
+      list-style: none;
+      line-height: 30px;
+    }
+    &-item-list li a {
+      text-decoration: none;
+      color: $darkColor;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+}
+hr {
+  margin-top: 30px;
+}

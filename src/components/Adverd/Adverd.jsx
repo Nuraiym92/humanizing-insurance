@@ -1,6 +1,7 @@
 import React from 'react';
 import "./adverd.scss"
 import Cards from '../Cards/Cards';
+
 function Adverd() {
   return (
       <section className='adverd'>

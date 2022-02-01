@@ -1,0 +1,39 @@
+@import "../../global.scss";
+.work {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  background-color: $darkColor;
+  height: 300px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 45px 0;
+  }
+  &__txt h2 {
+    color: $mainColor;
+    font-size: 60px;
+    width: 520px;
+  }
+  &__btn {
+    padding: 15px 60px;
+    background-color: $darkColor;
+    border: 1px solid $mainColor;
+    &-link {
+      color: $mainColor;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+  &__bg {
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+}

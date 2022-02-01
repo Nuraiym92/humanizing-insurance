@@ -1,0 +1,29 @@
+@import "../../global.scss";
+.adverd {
+  margin-top: 300px;
+  &__inner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  &__items {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  &__txt h2 {
+    color: $darkColor;
+    font-size: 80px;
+    position: relative;
+  }
+  &__txt:before {
+    content: "";
+    display: block;
+    width: 200px;
+    border: 1px solid rgb(216, 198, 216);
+    position: absolute;
+    bottom: -95px;
+  }
+}
