@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72d74498.css",
+    "main.js": "/static/js/main.66ca1466.js",
+    "static/media/image-intro-desktop.jpg": "/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
+    "static/media/bg-pattern-how-we-work-desktop.svg": "/static/media/bg-pattern-how-we-work-desktop.eb268c33d9921cd960db6b6ffa65c644.svg",
+    "static/media/bg-pattern-intro-left-desktop.svg": "/static/media/bg-pattern-intro-left-desktop.3a425b38f5531b055de49ec32822cf8c.svg",
+    "static/media/bg-pattern-intro-right-desktop.svg": "/static/media/bg-pattern-intro-right-desktop.0c130b3f008bf9eb1d1b204d6bdd53e0.svg",
+    "static/media/bg-pattern-footer-desktop.svg": "/static/media/bg-pattern-footer-desktop.700c39ea607592bfacaf790991a07f0b.svg",
+    "static/media/icon-instagram.svg": "/static/media/icon-instagram.46cfe17c3109f3bd2460963bc5beb553.svg",
+    "static/media/icon-pinterest.svg": "/static/media/icon-pinterest.5b02655f8f80d07884a7ed52397ff073.svg",
+    "index.html": "/index.html",
+    "static/media/icon-twitter.svg": "/static/media/icon-twitter.5e850eb31e4bad3bc4bf26b14b0cdd7f.svg",
+    "static/media/icon-facebook.svg": "/static/media/icon-facebook.4333c44571bee8e7f461b2fdaed6a6c0.svg",
+    "main.72d74498.css.map": "/static/css/main.72d74498.css.map",
+    "main.66ca1466.js.map": "/static/js/main.66ca1466.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72d74498.css",
+    "static/js/main.66ca1466.js"
+  ]
+}
